@@ -21,7 +21,7 @@ I learned the following from this implementation -
 * Writing tests using `assert_eq!`
 
 ## Ok Stack **(ok_stack.rs)**
-This is a generic singly linked stack that implements `peek` as well.
+This is a generic singly linked stack that implements `peek` as well.  
 It also implements the Iterator trait and provides all 3 types of iterators.  
   
 I learned the following from this implementation -
