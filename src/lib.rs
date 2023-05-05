@@ -1,8 +1,8 @@
-pub mod bad_list;
+pub mod bad_stack;
 
 #[cfg(test)]
 mod tests {
-    use super::bad_list::List;
+    use super::bad_stack::List;
 
     #[test]
     fn basics() {
