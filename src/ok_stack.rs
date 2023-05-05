@@ -1,5 +1,9 @@
 /*
 * What did I learn from this code?
+* 1) Using Option methods like take(), map()
+* 2) Implementation and uses of Iterator trait
+* 3) How little I know about lifetimes
+* 4) Types of iterators in Rust
 */
 
 pub struct List<T> {

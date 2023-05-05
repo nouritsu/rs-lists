@@ -5,7 +5,7 @@ use std::mem;
 * 1) Defining structs, enums, implementation blocks
 * 2) Uses of Option enum
 * 3) Enums in Rust vs C
-* 4) Implementing and uses of the Drop trait
+* 4) Implementation and uses of the Drop trait
 * 5) static function new() returns self paradigmS
 * 6) Using basic marcos - unimplemented!() and assert_eq!()
 */
