@@ -6,6 +6,13 @@
 * 4) Types of iterators in Rust
 */
 
+/*
+Description :
+A singly linked stack that implements push, pop and peek.
++ Uses option methods rather than bad rewritten versions of it
++ Implements Iterator trait and all 3 iterator types
+*/
+
 pub struct List<T> {
     head: Link<T>,
 }
