@@ -59,3 +59,39 @@ impl Drop for List {
         }
     }
 }
+
+/* TESTS */
+
+#[cfg(test)]
+mod test {
+    use super::List;
+
+    #[test]
+    fn basic() {
+        let mut list = List::new();
+
+        //Empty pop test
+        assert_eq!(list.pop(), None);
+
+        //Populate List
+        list.push(1);
+        list.push(2);
+        list.push(3);
+
+        //Non empty pop test
+        assert_eq!(list.pop(), Some(3));
+        assert_eq!(list.pop(), Some(2));
+
+        //Post pop push test
+        list.push(4);
+        list.push(5);
+
+        //Pop test
+        assert_eq!(list.pop(), Some(5));
+        assert_eq!(list.pop(), Some(4));
+
+        //Pop till empty test
+        assert_eq!(list.pop(), Some(1));
+        assert_eq!(list.pop(), None);
+    }
+}
