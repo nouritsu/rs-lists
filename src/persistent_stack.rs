@@ -1,9 +1,5 @@
 use std::rc::Rc;
 /*
-* What did I learn from this code?
-*/
-
-/*
 Description :
 An immutable singly linked stack that implements prepend(), tail() and head()
 + Immutable, hence faster
